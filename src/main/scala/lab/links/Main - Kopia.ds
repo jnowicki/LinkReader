@@ -1,0 +1,101 @@
+package lab.links
+
+import uk.co.bigbeeconsultants.http.HttpClient
+import uk.co.bigbeeconsultants.http.response.Response
+import java.net.URL
+import akka.actor._
+
+case class Link(url: String, depth: Int)
+case class GetRanking(url: String, depth: Int, client: ActorRef)
+case class Get(url: String, level: Int)
+case class Hrefs(hrefs: List[String], level: Int)
+case class Ranking(ranking: List[(String, Int)])
+case object ShutDown
+
+class LinkReader extends Actor {
+	def receive = {
+		case Link(url, depth) => {
+			val controller = context.actorOf(Props[Controller])
+			controller ! GetRanking(url, depth, sender)
+		}
+		case ShutDown => context.stop(self)
+	}
+}
+
+class Controller extends Actor {
+	def withDepth(depth: Int, client: ActorRef, waiting: Set[ActorRef], ranking: List[(String,Int)]): Receive = {
+		case Hrefs(hrefs, level) => 
+			val waiting2 = waiting.filterNot(_==sender)
+		if (level < depth){ 
+			for (href <- hrefs) yield {
+				ranking.toMap.get(href) match {
+					case Some(x) => {
+						val getter = context.actorOf(Props[Getter])
+						getter ! Get(href, level+1)
+						val indeks = ranking.toMap.keys.toList.indexOf(href)
+						context.become(withDepth(depth,client,waiting2 + getter,ranking.updated(indeks,(href,x+1))))
+					 }
+					case None =>{
+						val getter = context.actorOf(Props[Getter])
+						getter ! Get(href, level+1)
+						context.become(withDepth(depth,client,waiting2 + getter,ranking.::(href,1)))
+					}
+				}
+			}
+		} else {
+			//if(waiting == Set.empty) client ! Ranking(ranking)
+			//println(ranking)
+			
+			if(waiting2 == Set.empty) {
+				println("gettery zakonczyly dzialanie ")
+				client ! Ranking(ranking)
+				context.stop(self)
+				} else {
+						context.become(withDepth(depth,client,waiting2,ranking))
+						}
+		}
+	}
+	def receive = {
+		case GetRanking(url, depth, client) =>{
+			val getter = context.actorOf(Props[Getter])
+			getter ! Get(url, 1)
+			context.become(withDepth(depth, client, Set.empty, List.empty))
+		}
+	}
+}
+
+class Getter extends Actor {
+	def receive = {
+		case Get(url, level) => {
+			val linkRE = """href=['"](http[s]?://[^'"]+)""".r // zmodyfikowac zeby bral tylko http://server
+			val httpClient = new HttpClient
+    		val response: Response = httpClient.get(new URL(url))
+    		val links = linkRE findAllIn response.body.asString
+    		sender ! Hrefs(links.toList.map(_.substring(6)) , level)
+    		context.stop(self)
+		}
+	}
+}
+
+
+object Main {
+	import akka.actor.ActorDSL._
+	def main(args: Array[String]): Unit = {
+		val system = ActorSystem("system")
+		actor(system,"main")(new Act{
+			val linkreader = context.actorOf(Props[LinkReader], "LinkReader")
+			linkreader ! Link("http://www.kubavic.vdl.pl/",4)
+			context.become(waitingForRanking())
+			def waitingForRanking(): Receive = {
+				case Ranking(ranking) => {
+					printList(ranking)
+					system.shutdown
+				}
+			}
+			})
+	}
+	def printList(args: List[_]): Unit = {
+  		args.foreach(println)
+	}
+
+}

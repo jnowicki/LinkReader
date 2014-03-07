@@ -1,0 +1,609 @@
+[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/Kuba/scala/links2/links/}links...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: linkreporter#linkreporter_2.10;1.0[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60058892[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.3] org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.10;2.1.4 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.10;2.1.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-actor_2.10;2.1.4[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.10;2.1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.0.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.0.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.0.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe#config;1.0.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.0.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-slf4j_2.10;2.1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-slf4j_2.10;2.1.4 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-slf4j_2.10;2.1.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-slf4j_2.10;2.1.4[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-slf4j_2.10;2.1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-classic;1.0.13 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-classic;1.0.13 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.0.13[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: ch.qos.logback#logback-classic;1.0.13[0m
+[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-classic;1.0.13 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-core;1.0.13 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-core;1.0.13 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.0.13[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: ch.qos.logback#logback-core;1.0.13[0m
+[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-core;1.0.13 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.5 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.slf4j#slf4j-api;1.7.5[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for uk.co.bigbeeconsultants#bee-client_2.10;0.21.+[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for uk.co.bigbeeconsultants#bee-client_2.10;0.21.+[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\Kuba\.ivy2\local\uk.co.bigbeeconsultants\bee-client_2.10\[revision]\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for uk.co.bigbeeconsultants#bee-client_2.10;0.21.+[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for uk.co.bigbeeconsultants#bee-client_2.10;0.21.+[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/uk/co/bigbeeconsultants/bee-client_2.10/[revision]/bee-client_2.10-[revision].pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/uk/co/bigbeeconsultants/bee-client_2.10/[0m
+[0m[[0mdebug[0m] [0mproblem while listing resources in http://repo1.maven.org/maven2/uk/co/bigbeeconsultants/bee-client_2.10/ with public:[0m
+[0m[[0mdebug[0m] [0m  java.io.IOException The HTTP response code for http://repo1.maven.org/maven2/uk/co/bigbeeconsultants/bee-client_2.10/ did not indicate a success. See log for more detail.[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for uk.co.bigbeeconsultants#bee-client_2.10;0.21.+[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for uk.co.bigbeeconsultants#bee-client_2.10;0.21.+[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.bigbeeconsultants.co.uk/repo/uk/co/bigbeeconsultants/bee-client_2.10/[revision]/bee-client_2.10-[revision].pom[0m
+[0m[[0mdebug[0m] [0m	Big Bee Consultants: found md file for uk.co.bigbeeconsultants#bee-client_2.10;0.21.+[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.bigbeeconsultants.co.uk/repo/uk/co/bigbeeconsultants/bee-client_2.10/0.21.6/bee-client_2.10-0.21.6.pom (0.21.6)[0m
+[0m[[0mdebug[0m] [0m	default-cache: revision in cache: uk.co.bigbeeconsultants#bee-client_2.10;0.21.6[0m
+[0m[[0mdebug[0m] [0m	found uk.co.bigbeeconsultants#bee-client_2.10;0.21.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[0.21.6] uk.co.bigbeeconsultants#bee-client_2.10;0.21.+[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.mortbay.jetty#servlet-api;2.5.20110712 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mortbay.jetty#servlet-api;2.5.20110712 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mortbay.jetty#servlet-api;2.5.20110712[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.mortbay.jetty#servlet-api;2.5.20110712[0m
+[0m[[0mdebug[0m] [0m	found org.mortbay.jetty#servlet-api;2.5.20110712 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.4->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->com.typesafe.akka#akka-actor_2.10;2.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.1.4->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.1.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.bigbeeconsultants#bee-client_2.10;0.21.+->org.mortbay.jetty#servlet-api;2.5.20110712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->uk.co.bigbeeconsultants#bee-client_2.10;0.21.+ [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for linkreporter#linkreporter_2.10;1.0 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->default][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-compiler;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-reflect;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.3] org.scala-lang#scala-reflect;2.10.3[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#jline;2.10.3 [optional->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.3 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#jline;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#jline;2.10.3 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.3->org.fusesource.jansi#jansi;1.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.3->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies linkreporter#linkreporter_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in C:\Users\Kuba\scala\links2\links\target\resolution-cache\linkreporter\linkreporter_2.10\1.0\resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.1.4!akka-actor_2.10.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.10;2.1.4!akka-slf4j_2.10.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-classic;1.0.13!logback-classic.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] uk.co.bigbeeconsultants#bee-client_2.10;0.21.6!bee-client_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.0.0!config.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-core;1.0.13!logback-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mortbay.jetty#servlet-api;2.5.20110712!servlet-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.3!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1556ms :: artifacts dl 13ms[0m
+[0m[[0mdebug[0m] [0m	report for linkreporter#linkreporter_2.10;1.0 compile produced in C:\Users\Kuba\scala\links2\links\target\resolution-cache\reports\linkreporter-linkreporter_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for linkreporter#linkreporter_2.10;1.0 runtime produced in C:\Users\Kuba\scala\links2\links\target\resolution-cache\reports\linkreporter-linkreporter_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for linkreporter#linkreporter_2.10;1.0 test produced in C:\Users\Kuba\scala\links2\links\target\resolution-cache\reports\linkreporter-linkreporter_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for linkreporter#linkreporter_2.10;1.0 provided produced in C:\Users\Kuba\scala\links2\links\target\resolution-cache\reports\linkreporter-linkreporter_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for linkreporter#linkreporter_2.10;1.0 optional produced in C:\Users\Kuba\scala\links2\links\target\resolution-cache\reports\linkreporter-linkreporter_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for linkreporter#linkreporter_2.10;1.0 compile-internal produced in C:\Users\Kuba\scala\links2\links\target\resolution-cache\reports\linkreporter-linkreporter_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for linkreporter#linkreporter_2.10;1.0 runtime-internal produced in C:\Users\Kuba\scala\links2\links\target\resolution-cache\reports\linkreporter-linkreporter_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for linkreporter#linkreporter_2.10;1.0 test-internal produced in C:\Users\Kuba\scala\links2\links\target\resolution-cache\reports\linkreporter-linkreporter_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for linkreporter#linkreporter_2.10;1.0 plugin produced in C:\Users\Kuba\scala\links2\links\target\resolution-cache\reports\linkreporter-linkreporter_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for linkreporter#linkreporter_2.10;1.0 sources produced in C:\Users\Kuba\scala\links2\links\target\resolution-cache\reports\linkreporter-linkreporter_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for linkreporter#linkreporter_2.10;1.0 docs produced in C:\Users\Kuba\scala\links2\links\target\resolution-cache\reports\linkreporter-linkreporter_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for linkreporter#linkreporter_2.10;1.0 pom produced in C:\Users\Kuba\scala\links2\links\target\resolution-cache\reports\linkreporter-linkreporter_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for linkreporter#linkreporter_2.10;1.0 scala-tool produced in C:\Users\Kuba\scala\links2\links\target\resolution-cache\reports\linkreporter-linkreporter_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (1556ms resolve - 13ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
